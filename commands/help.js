@@ -220,7 +220,7 @@ async function helpCommand(sock, chatId, message) {
             forwardingScore: 1,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363161513685998@newsletter',
+                newsletterJid: '',
                 newsletterName: 'TOM-PRIME-X Updates',
                 serverMessageId: -1
             }
