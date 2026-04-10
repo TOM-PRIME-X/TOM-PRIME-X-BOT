@@ -264,7 +264,12 @@ async function startXeonBotInc() {
             try {
                 const botNumber = XeonBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
                 await XeonBotInc.sendMessage(botNumber, {
-                    text: `🤖 Bot Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Online and Ready!\n\n✅Make sure to join below channel`,
+                    text: `🤖 *TOM PRIME X BOT Connected Successfully!*\n\n` +
+                  `⏰ *Time:* ${new Date().toLocaleString()}\n` +
+                  `✅ *Status:* Online and Ready!\n\n` +
+                  `🔗 *GitHub:* https://github.com/TOM-PRIME-X/TOM-PRIME-X-BOT\n` +
+                  `📺 *YouTube:* https://youtube.com/@saycotom\n\n` +
+                  `🚀 *Powered by TOM PRIME X*`,
                     contextInfo: {
                         forwardingScore: 1,
                         isForwarded: true,
@@ -280,7 +285,7 @@ async function startXeonBotInc() {
             }
 
             await delay(1999)
-            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'KNIGHT BOT'} ]`)}\n\n`))
+            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || '𝐓𝐎𝐌 𝐏𝐑𝐈𝐌𝐄 𝐗 𝐁𝐎𝐓'} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
             console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: MR UNIQUE HACKER`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: mrunqiuehacker`))
