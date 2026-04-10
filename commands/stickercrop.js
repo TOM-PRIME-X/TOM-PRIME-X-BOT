@@ -36,8 +36,8 @@ async function stickercropCommand(sock, chatId, message) {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterJid: '',
+                    newsletterName: '𝐓𝐎𝐌 𝐏𝐑𝐈𝐌𝐄 𝐗',
                     serverMessageId: -1
                 }
             }
@@ -58,8 +58,8 @@ async function stickercropCommand(sock, chatId, message) {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD',
+                        newsletterJid: '',
+                        newsletterName: '𝐓𝐎𝐌 𝐏𝐑𝐈𝐌𝐄 𝐗',
                         serverMessageId: -1
                     }
                 }
@@ -186,8 +186,8 @@ async function stickercropCommand(sock, chatId, message) {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterJid: '',
+                    newsletterName: '𝐓𝐎𝐌 𝐏𝐑𝐈𝐌𝐄 𝐗',
                     serverMessageId: -1
                 }
             }
