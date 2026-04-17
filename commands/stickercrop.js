@@ -149,7 +149,7 @@ async function stickercropCommand(sock, chatId, message) {
         // Create metadata
         const json = {
             'sticker-pack-id': crypto.randomBytes(32).toString('hex'),
-            'sticker-pack-name': settings.packname || 'KnightBot',
+            'sticker-pack-name': settings.packname || 'Tom Prime X Bot',
             'emojis': ['✂️']
         };
 
