@@ -29,6 +29,8 @@ async function helpCommand(sock, chatId, message) {
    ┝ .delete
    ┝ .warn
    ┝ .warnings
+   ┝ .antispam
+   ┝ .antisticker
    ┝ .antilink
    ┝ .antibadword
    ┝ .tagall
@@ -190,7 +192,7 @@ async function helpCommand(sock, chatId, message) {
    ┝ .out
 
    ● SYSTEM DATA
-   ┝ .info 📊
+   ┝ .info
    ┝ .repo
    ┝ .sc
    ┝ .github
