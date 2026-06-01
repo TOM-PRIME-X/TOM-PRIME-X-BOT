@@ -26,7 +26,7 @@ async function emojimixCommand(sock, chatId, msg) {
         let [emoji1, emoji2] = args[0].split('+').map(e => e.trim());
 
         // Using Tenor API endpoint
-        const url = `https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`;
+        const url = ``;
 
         const response = await fetch(url);
         const data = await response.json();
