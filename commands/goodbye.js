@@ -20,8 +20,8 @@ async function handleLeaveEvent(sock, id, participants) {
             const participantString = typeof participant === 'string'? participant : (participant.id || participant.toString());
             const user = participantString.split('@')[0];
 
-            // 🔥 Mention age
-            const finalMessage = `@${user} *𝙜𝙤𝙤𝙙𝙗𝙮𝙚 𝙬𝙚 𝙬𝙞𝙡𝙡 𝙢𝙞𝙨𝙨 𝙮𝙤𝙪 & 𝙗𝙚𝙨𝙩 𝙤𝙛 𝙡𝙪𝙘𝙠𝘬*`;
+
+            const finalMessage = `@${user} *_has left the group, we will miss them! 👋_*`;
 
             await sock.sendMessage(id, {
                 text: finalMessage,
